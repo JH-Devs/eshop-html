@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eshop.cz - Nákupní košík</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="onas.html">O nás</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a class="active"  href="nakupni-kosik.html"><i class="fa-regular fa-bag-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="cart-header" >
+        <h2>#nákupníkošík</h2>
+        <p>Vše co nakupujete.</p>
+    </section>
+    <section id="cart" class="section-p1">
+        <table with="100%">
+            <thead>
+                <tr>
+                    <td>Smazat</td>
+                    <td>Obrázek</td>
+                    <td>Produkt</td>
+                    <td>Cena</td>
+                    <td>Množství</td>
+                    <td>Celkem</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-times-circle"></i></a></td>
+                    <td><img src="./img/products/f1.png" alt=""></td>
+                    <td>Dámské tričko</td>
+                    <td>299 Kč</td>
+                    <td><input type="number" value="1"></td>
+                    <td>299 Kč</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-times-circle"></i></a></td>
+                    <td><img src="./img/products/f2.png" alt=""></td>
+                    <td>Dámské tričko</td>
+                    <td>299 Kč</td>
+                    <td><input type="number" value="1"></td>
+                    <td>299 Kč</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-times-circle"></i></a></td>
+                    <td><img src="./img/products/f3.png" alt=""></td>
+                    <td>Dámské tričko</td>
+                    <td>299 Kč</td>
+                    <td><input type="number" value="1"></td>
+                    <td>299 Kč</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+        <div class="coupon">
+            <h3>Použít slevový kód</h3>
+            <div>
+                <input type="text" placeholder="zadejte slevový kód">
+                <button class="normal">Použít</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Shrnutí košíku</h3>
+            <table>
+                <tr>
+                    <td>Celkem v košíku</td>
+                    <td>887 Kč</td>
+                </tr>
+                <tr>
+                    <td>Doprava</td>
+                    <td>zdarma</td>
+                </tr>
+                <tr>
+                    <td><strong>Celkem</strong></td>
+                    <td><strong>887 Kč</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Pokračovat k pokladně</button>
+        </div>
+    </section>
+    <section class="footer section-p1">
+        <div class="col">
+            <h4>Kontakt</h4>
+            <p><strong>Adresa:</strong> Ulice 1, 111 11 Město, Česká republika</p>
+            <p><strong>Telefon:</strong> +420 111 222 333</p>
+            <p><strong>Otevírací doba:</strong> PO - PÁ -  9:00 - 17:00 </p>
+            <div class="follow">
+                <h4>Sledujte nás</h4>
+                <div class="icon">
+                    <a href="#"></a><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"></a><i class="fab fa-twitter"></i></a>
+                    <a href="#"></a><i class="fab fa-instagram"></i></a>
+                    <a href="#"></a><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"></a><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>O nás</h4>
+            <a href="#">O nás</a>
+            <a href="#">Doprava a platba</a>
+            <a href="#">GDPR</a>
+            <a href="#">Obchodní podmínky</a>
+            <a href="#">Kontaktujte nás</a>
+        </div>
+        <div class="col">
+            <h4>Můj účet</h4>
+            <a href="#">Přihlášení</a>
+            <a href="#">Košík</a>
+            <a href="#">Seznam přání</a>
+            <a href="#">Sledování objednávky</a>
+            <a href="#">FAQ</a>
+        </div>
+
+        <div class="col install">
+            <h4>Instalace aplikace</h4>
+            <p>Dostupná na App store nebo Google play</p>
+            <div class="row">
+                <img src="./img/pay/app.jpg" alt="">
+                <img src="./img/pay/play.jpg" alt="">
+            </div>
+            <p>Bezpečná platební brána</p>
+            <img src="./img/pay/pay.png" alt="">
+        </div>
+    </section>
+    <section id="copyright">
+        <p><i class="fa-regular fa-copyright"></i> 2023, Eshop - Html, css, js.</p>
+        <p>Všechna práva vyhrazena. Vytvořeno <a href="jh-devs.cz">JH-Devs.cz</a></p>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
